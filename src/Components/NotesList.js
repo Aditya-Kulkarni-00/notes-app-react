@@ -17,7 +17,7 @@ const NotesList = () =>{
             <AddNote/>
         <div>
             {noteList &&  noteList.map((note)=>
-                (<Note key={note.id} content={note.content}/>)
+                (<Note key={note.id} id={note.id} content={note.content}/>)
             )}
         </div>
         </div>

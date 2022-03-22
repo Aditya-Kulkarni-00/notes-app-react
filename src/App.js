@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <Header/>
-    <div className="container mx-auto px-4 mt-4 rounded-md mb-4 bg-sky-100">
+    <div className="container mx-auto px-4 mt-4 rounded-md mb-4 py-5 bg-sky-100">
     <NotesList/>
     </div>
     <Footer/>
