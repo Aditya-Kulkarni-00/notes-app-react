@@ -1,10 +1,14 @@
 import Header from './Components/Header'
 import Footer from './Components/Footer'
-import NoteList from './Components/NoteList'
+import NotesList from './Components/NotesList'
 
 function App() {
   return (
-
+    <>
+    <Header/>
+    <NotesList/>
+    <Footer/>
+    </>
   );
 }
 
