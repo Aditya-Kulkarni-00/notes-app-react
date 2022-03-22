@@ -1,8 +1,10 @@
+import Header from './Components/Header'
+import Footer from './Components/Footer'
+import NoteList from './Components/NoteList'
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Notes Application
-    </h1>
+
   );
 }
 
